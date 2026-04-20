@@ -6,11 +6,11 @@ The game stores its assets in ZIP-based `.cache` archives that use a custom comp
 
 ## Usage
 
-Run `DarkSectorCacheTool.exe` for the GUI, or use the command line:
+Run `Dark Sector PS3 Cache Tool.exe` for the GUI, or use the command line:
 
 ```
-DarkSectorCacheTool.exe extract <cache_file> <output_dir>
-DarkSectorCacheTool.exe repack <original_cache> <input_dir> <output_cache>
+Dark Sector PS3 Cache Tool.exe extract <cache_file> <output_dir>
+Dark Sector PS3 Cache Tool.exe repack <original_cache> <input_dir> <output_cache>
 ```
 
 When repacking, the tool needs the original `.cache` file as a reference to preserve compression methods and internal structure. Unmodified files are copied verbatim from the original archive. Modified files are stored uncompressed (method 0) to avoid compatibility issues with the game's decompressor.
